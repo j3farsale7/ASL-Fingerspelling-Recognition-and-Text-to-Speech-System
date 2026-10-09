@@ -42,12 +42,19 @@ The CNN model (`asl_classifier.h5`) is structured as follows:
 ## Directory Structure
 
 ├── Final_App.ipynb          # Main inference application (Image reading & TTS)
+
 ├── Training_Explained.ipynb # Data preprocessing and model training pipeline
+
 ├── asl_classifier.h5        # The trained CNN model weights
+
 ├── test/                    # Dataset directory (27 folders for classes 0-26)
+
 ├── LeJaafar/                # Processed images ready for inference
+
 ├── leRead/                  # Raw captured images
+
 ├── old exps/                # Archived previous model iterations
+
 └── Helpful files/           # Reference materials and auxiliary scripts
 
 
